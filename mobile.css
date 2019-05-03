@@ -1,0 +1,56 @@
+.logoContainer{
+    overflow:hidden;
+    background:#CC0000;
+    height:auto;
+    
+}
+
+.logo{
+ width:40%;
+filter:drop-shadow(400px 0 white);
+position:relative;
+left:-410px;
+}
+
+.nav{
+    display:none;
+}
+
+.mainContent{
+    flex-direction: column;
+}
+.rightBlock{
+    margin: auto;
+}
+.textContainer{
+    padding: 0.2rem
+}
+.flexStart{
+    flex-direction: column
+}
+.flexEnd{
+    flex-direction: column-reverse
+}
+.positionAdjustLeft{
+    padding-left: 0rem;
+}
+.adjustContainer{
+    padding: 0.5rem 0.2rem;
+}
+.searchInput{
+    width: 60%;
+}
+.searchButton{
+    width: 40%
+}
+.mobileEntrance{
+    display: flex;
+    justify-content: flex-end;
+    margin:0.5rem;
+}
+.deskEntrance{
+    display: none;
+}
+.welcome{
+    margin: -0.5rem 0 0.5rem 0;
+}
